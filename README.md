@@ -175,7 +175,7 @@ localhost:3000
 License
 ----
 
-GPL v2
+GPL v3
 
 
 **Free Software, Hell Yeah!**
