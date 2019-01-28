@@ -7,16 +7,15 @@
   - Bootstrap layout is used
   - Books, categories, author and publishers can be added from the frontend
 
-## Project sections
+## What I learned with this project
 
- - Section 1: Project introduction
- - Section 2: Rails & MySQL setup
- - Section 3: Controllers & Views
- - Section 4: Application layout
- - Section 5: Models & databases
- - Section 6: Creating books
- - Section 7: Editing & deleting books
- - Section 8: Editing & deleting other resources
+ - Rails & MySQL setup
+ - Controllers & Views
+ - Application layout
+ - Models & databases
+ - Creating books
+ - Editing & deleting books
+ - Editing & deleting other resources
 
 This app can be built either on Windows or Linux workspaces. There are a few differences, though, as explained below:
 
