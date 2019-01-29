@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2520843c-fc15-4f2a-afb6-9b55a13247ed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/bookstore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/bookstore.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/authors_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/authors_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/books_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/books_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/categories_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/categories_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/publishers_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/publishers_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/authors/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/authors/edit.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/authors/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/authors/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/authors/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/authors/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/books/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/books/edit.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/books/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/books/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/books/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/books/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/books/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/books/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/categories/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/categories/edit.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/categories/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/categories/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/categories/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/categories/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/categories/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/categories/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/partials/_sidebar.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/partials/_sidebar.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/publishers/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/publishers/edit.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/publishers/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/publishers/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/publishers/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/publishers/new.html.erb" afterDir="false" />
-    </list>
+    <list default="true" id="2520843c-fc15-4f2a-afb6-9b55a13247ed" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/log/" />
@@ -89,13 +65,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/publishers/edit.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="8" selection-start-column="8" selection-end-column="8" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20190129142628_create_categories.rb">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -142,7 +123,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="282" />
-    <option name="y" value="735" />
+    <option name="y" value="614" />
     <option name="width" value="1283" />
     <option name="height" value="433" />
   </component>
@@ -356,15 +337,15 @@
       <workItem from="1548711260050" duration="4023000" />
       <workItem from="1548715973224" duration="8437000" />
       <workItem from="1548761813220" duration="8714000" />
-      <workItem from="1548796200018" duration="3001000" />
+      <workItem from="1548796200018" duration="4042000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26424000" />
+    <option name="totallyTimeSpent" value="27465000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="282" y="735" width="1283" height="433" extended-state="0" />
+    <frame x="282" y="614" width="1283" height="433" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49434572" visible="true" weight="0.30744073" />
@@ -454,9 +435,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20190129142628_create_categories.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/category.rb">
@@ -633,6 +611,9 @@
           <caret column="8" selection-start-column="8" selection-end-column="8" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190129142628_create_categories.rb">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
