@@ -5,7 +5,7 @@
   - Browse books by category
   - Books have authors and publishers
   - Bootstrap layout is used
-  - Books, categories, author and publishers can be added from the frontend
+  - Books, categories, author and publishers can be added, edited and removed from the frontend
 
 ## What I learned with this project
 
@@ -13,9 +13,7 @@
  - Controllers & Views
  - Application layout
  - Models & databases
- - Creating books
- - Editing & deleting books
- - Editing & deleting other resources
+ - Creating all elements (authors, publishers, books and categories)
 
 This app can be built either on Windows or Linux workspaces. There are a few differences, though, as explained below:
 
@@ -24,7 +22,6 @@ This app can be built either on Windows or Linux workspaces. There are a few dif
 Install the dependencies and devDependencies and start the server.
 
 ```sh
-
 $ sudo apt-get update
 $ apt-get upgrade
 $ apt-get install curl
@@ -166,6 +163,14 @@ Verify the deployment by navigating to your server address in your preferred bro
 localhost:3000
 ```
 
+Run the code below to create tables inside the databases that were created above
+
+```sh
+$ rake db:migrate
+```
+
+Now you can run the application from this repository without any problem
+
 ### Todos
 
  - Write MORE Tests
@@ -177,5 +182,3 @@ License
 
 GPL v3
 
-
-**Free Software, Hell Yeah!**
