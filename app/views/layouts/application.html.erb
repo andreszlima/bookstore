@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Bookstore</title>
+    <title><%= @page_title ? @page_title : 'Welcome' %> | The Bookstore</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -17,10 +17,10 @@
 
     <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li class="active">
+        <li class="nav-item <%= params[:controller] == 'books' ? 'active' : '' %>">
           <%= link_to 'Home', root_path, class: 'nav-link' %>
         </li>
-        <li class="nav-item">
+        <li class="nav-item <%= params[:controller] == 'about' ? 'active' : '' %>">
           <%= link_to 'About', about_path, class: 'nav-link'  %>
         </li>
     </div>
@@ -39,7 +39,26 @@
     </div>
   </nav>
 
-    <%= yield %>
-  
+  <header>
+    <div class="container-fluid">
+      <h1>The Bookstore <small><%= @page_title ? @page_title : 'Welcome' %></small></h1>
+    </div>
+  </header>
+
+  <section>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-8">
+          <%= yield %>
+        </div>
+        <div class="col-md-4">
+          <% render 'partials/sidebar' %>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
   </body>
 </html>
