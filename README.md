@@ -28,7 +28,7 @@ $ apt-get install curl
 $ \curl -L https://get.rvm.io | bash -s stable
 ```
 
-Now it's required to put user and password of your root user. After that, run
+Now it's required to put user and password of your root user (Run as bash). After that, run
 
 ```sh
 $ source ~/.rvm/scipts/rvm
