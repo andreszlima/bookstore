@@ -100,7 +100,14 @@ Use bash permanently inside terminal:
 Open Profile preferences > Title and commmand
 Enable: Run command as login shell
 
-Now install mysql adapter
+Install mysql adapter and NodeJS to take care of javascript inside ruby:
+
+```sh
+$ gem install mysql2
+$ sudo apt-get install nodejs
+```
+
+If you don't want to install NodeJS, run these commands instead:
 
 ```sh
 $ gem install mysql2
@@ -108,6 +115,8 @@ $ gem install therubyracer
 $ gem install libv8 --version=3.11.8.3
 $ gem install execjs
 ```
+
+
 
 ### Create application
 
