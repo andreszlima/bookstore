@@ -26,13 +26,13 @@ $ sudo apt-get update
 $ apt-get upgrade
 $ apt-get install curl
 $ \curl -L https://get.rvm.io | bash -s stable
-$ source ~/.rvm/scipts/rvm
-$ rvm requirements
 ```
 
 Now it's required to put user and password of your root user. After that, run
 
 ```sh
+$ source ~/.rvm/scipts/rvm
+$ rvm requirements
 $ rvm install ruby
 $ rvm use ruby --default
 $ rvm rubygems current
